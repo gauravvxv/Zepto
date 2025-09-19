@@ -26,13 +26,24 @@ The goal of this project is to transform raw inventory data into actionable insi
    - Out of Stock: 453
  
 ## Key Insights 
- * Top  Best-Value Products (Highest Discount %)
-    - The top products offering the highest discounts provide the best value for customers. These items, such as `Dukes Waffy Orange Wafers`,`Ceres Foods Laal Maas Instant Liquid Masala`,
-   `Chef's Basket Durum Wheat Elbow Pasta` and `Ceres Foods Nalli Nihari Instant Liquid Masala`, have discounts ranging from `51%` to `45%`, making them highly attractive for buyers looking for savings.
+ * Top Best-Value Products (Highest Discount %)
+     - `Borges Extra Light Olive Oil Bottle ` and `Dukes Waffy Orange Wafers` are the top best-value product with 50% and 47% discount.
+
 
  * Products with High MRP but Out of Stock
-   - Several premium products with high MRP, including `Patanjali Cow's Ghee`, `MamyPoko Pants Standard Diapers, Extra Large (12 - 17 kg)`, and `Aashirvaad Atta With Mutigrains`, are currently         out of stock. These high-value items represent potential lost revenue, highlighting the need for better inventory planning for high-demand, high-priced products.
+   - `Patanjali Cow's Ghee`,`MamyPoko Pants Standard Diapers, Extra Large (12 - 17 kg)`,`Aashirvaad Atta With Mutigrains` and `Everest Kashmiri Lal Chilli Powder` are the Products with High MRP but out of stock
   
- * Revenue per Category:
-      - Total revenue across all products is ₹122M, but it is not evenly distributed. Certain categories, like Beverages and Snacks, contribute the most to sales, generating ₹35M and ₹28M respectively, while smaller categories like Stationery and Household contribute relatively little. Understanding these patterns helps in focusing marketing and inventory efforts on the top-performing categories.
+ * Top 5 Revenue per Category:
+   - `packaged Food`: ₹17.35M
+   - `Munchies`:  ₹13.62M
+   - `Paan Corner`: ₹12.62M
+   - `Meats, Fish & Eggs`: ₹3.69M
+   - `Dairy, Bread & Batter`: ₹3.34M
+
+ * Products with High Price but Low Discount
+   | Product Name | Price (₹) | Discount (%) |
+|--------------|-----------|--------------|
+| Dhara Kachi Ghani Mustard Oil Jar | 1250 | 8 |
+| Saffola Gold (Jar) | 1240 | 0 |
+ 
 
