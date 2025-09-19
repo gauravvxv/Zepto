@@ -83,3 +83,23 @@ select  category,sum(discountedsellingprice * quantity) as revenue from zepto
 group by category
 order by revenue desc;
 
+-- Q4. Find all products where MRP is greater than 500 and discount is less than 10%.
+select name,mrp,discountpercent from zepto
+where mrp > 500 and discountpercent < 10
+order by mrp desc;
+
+-- Q5. Identify the top 5 categories offering the highest average discount percentage.
+select category,round(avg(discountpercent),0) as average_discountpercent from zepto
+group by category
+order by average_discountpercent desc
+limit 5;
+
+-- Q6. Find the price per gram for products above 100g and sort the best value. 
+select name,round(avg(discountedsellingprice / weightingms),2) as price_per_gram
+from zepto
+where weightingms > 100
+group by name
+order by price_per_gram desc;
+
+
+
