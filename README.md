@@ -1,4 +1,4 @@
-<img alt="Zepto-Featured-Image-Option-2" src="https://github.com/user-attachments/assets/4b7ae26d-29c2-4878-9b86-b822d5680a56" width="1000" height="200" />
+<img alt="Zepto-Featured-Image-Option-2" src="https://github.com/user-attachments/assets/4b7ae26d-29c2-4878-9b86-b822d5680a56" width="1000" height="400" />
 
 
 
