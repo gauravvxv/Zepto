@@ -28,6 +28,11 @@ The goal of this project is to transform raw inventory data into actionable insi
 ## Key Insights 
  * Top  Best-Value Products (Highest Discount %)
     - The top products offering the highest discounts provide the best value for customers. These items, such as `Dukes Waffy Orange Wafers`,`Ceres Foods Laal Maas Instant Liquid Masala`,
-   `Chef's Basket Durum Wheat Elbow Pasta` and `Ceres Foods Nalli Nihari Instant Liquid Masala`, have discounts ranging from `51%` to `45`, making them highly attractive for buyers looking for savings.
- 
+   `Chef's Basket Durum Wheat Elbow Pasta` and `Ceres Foods Nalli Nihari Instant Liquid Masala`, have discounts ranging from `51%` to `45%`, making them highly attractive for buyers looking for savings.
+
+ * Products with High MRP but Out of Stock
+   - Several premium products with high MRP, including `Patanjali Cow's Ghee`, `MamyPoko Pants Standard Diapers, Extra Large (12 - 17 kg)`, and `Aashirvaad Atta With Mutigrains`, are currently         out of stock. These high-value items represent potential lost revenue, highlighting the need for better inventory planning for high-demand, high-priced products.
+  
+ * Revenue per Category:
+      - Total revenue across all products is ₹122M, but it is not evenly distributed. Certain categories, like Beverages and Snacks, contribute the most to sales, generating ₹35M and ₹28M respectively, while smaller categories like Stationery and Household contribute relatively little. Understanding these patterns helps in focusing marketing and inventory efforts on the top-performing categories.
 
