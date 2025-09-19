@@ -24,4 +24,10 @@ The goal of this project is to transform raw inventory data into actionable insi
 - Product Stock Status:
    - In Stock: 3278
    - Out of Stock: 453
-- 
+ 
+## Key Insights 
+ * Top  Best-Value Products (Highest Discount %)
+     The top products offering the highest discounts provide the best value for customers. These items, such as `Dukes Waffy Orange Wafers`,`Ceres Foods Laal Maas Instant Liquid Masala`,
+   `Chef's Basket Durum Wheat Elbow Pasta` and `Ceres Foods Nalli Nihari Instant Liquid Masala`, have discounts ranging from `51%` to `45`, making them highly attractive for buyers looking for savings.
+ 
+
