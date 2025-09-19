@@ -41,9 +41,7 @@ The goal of this project is to transform raw inventory data into actionable insi
    - `Dairy, Bread & Batter`: ₹3.34M
 
  * Products with High Price but Low Discount
-   | Product Name | Price (₹) | Discount (%) |
-|--------------|-----------|--------------|
-| Dhara Kachi Ghani Mustard Oil Jar | 1250 | 8 |
-| Saffola Gold (Jar) | 1240 | 0 |
+     - `Dhara Kachi Ghani Mustard Oil Jar` (Price: ₹1250, Discount: 8%)
+     -  `Saffola Gold (Jar)` (Price: ₹1240, Discount: 0%).
  
 
