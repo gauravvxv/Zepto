@@ -69,7 +69,7 @@ delete from zepto where mrp = 0;
 
 -- Q1. Find the top 10 best-value products based on the discount percentage.
 select
-distinct name,discountpercent from zepto
+distinct name,mrp,discountpercent from zepto
 order by discountpercent desc
  limit 10;
 
@@ -100,6 +100,21 @@ from zepto
 where weightingms > 100
 group by name
 order by price_per_gram desc;
+
+-- Q7. Group the products into cartegories like Low,Medium, Bulk.
+select distinct name,weightingms,
+case
+when weightingms < 1000 then 'Low'
+when weightingms < 5000 then 'Medium'
+else 'Bulk'
+end as weight_category
+from zepto;
+
+-- Q8. What is the total Inventory weight per Category.
+select category, sum(weightingms * quantity) as total_weight
+from zepto
+group by category
+order by total_weight desc
 
 
 
