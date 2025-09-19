@@ -66,3 +66,15 @@ delete from zepto where mrp = 0;
 	set mrp = mrp/100.00,
 	discountedsellingprice = discountedsellingprice/100.00
 
+
+-- Q1. Find the top 10 best-value products based on the discount percentage.
+select
+distinct name,discountpercent from zepto
+order by discountpercent desc
+ limit 10;
+
+ -- Q2. What are the Products with High MRP but Out of Stock.
+select distinct name,mrp,outofstock from zepto
+ where outofstock = true
+order by mrp desc limit 10;
+
