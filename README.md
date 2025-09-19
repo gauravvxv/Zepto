@@ -5,3 +5,19 @@ This project focuses on analyzing Zepto’s inventory dataset to uncover meaning
 The analysis highlights trends such as best-value products, high-MRP items that are out of stock, category-wise revenue, discount patterns, price efficiency per gram, and inventory weight distribution.
 
 The goal of this project is to transform raw inventory data into actionable insights that can help in decision-making related to pricing strategies, stock management, and overall business performance.
+
+---
+
+## Key KPIs
+
+- Total Revenue: ₹122M
+- Total Products: 1670
+- Average Discount: 7.62%
+
+## Data Exploration
+- Total Rows: 3731
+- Different Category: 14
+- Product Stock Status:
+   - In Stock: 3278
+   - Out of Stock: 453
+- 
