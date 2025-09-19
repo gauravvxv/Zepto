@@ -78,3 +78,8 @@ select distinct name,mrp,outofstock from zepto
  where outofstock = true
 order by mrp desc limit 10;
 
+-- Q3. Calculate Estimated Revenue for each category.
+select  category,sum(discountedsellingprice * quantity) as revenue from zepto
+group by category
+order by revenue desc;
+
