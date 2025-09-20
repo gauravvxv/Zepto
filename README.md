@@ -54,6 +54,24 @@ The goal of this project is to transform raw inventory data into actionable insi
 * **PostgreSQL** – for storing and managing inventory data  
 * **Power BI** – for creating interactive dashboards and visualizations  
 * **DAX (Data Analysis Expressions)** – for writing custom measures and calculations in Power BI
+---
+
+## Database Schema 
+
+```
+create table zepto(
+id SERIAL PRIMARY KEY,
+category VARCHAR(120),
+name VARCHAR(150) NOT NULL,
+mrp NUMERIC(8,2),
+discountPercent NUMERIC(5,2),
+availableQuantity INTEGER,
+discountedSellingPrice NUMERIC(8,2),
+weightInGms INTEGER,
+outOfStock BOOLEAN,
+quantity INTEGER
+);
+```
 
 ---
 
