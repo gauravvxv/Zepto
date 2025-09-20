@@ -79,6 +79,10 @@ quantity INTEGER
 ## Dashboard Preview
 <img width="948" height="531" alt="Screenshot 2025-09-19 220615" src="https://github.com/user-attachments/assets/16ff6eec-3843-4ba6-adfa-3a0b5f9a58c3" />
 
+---
 
-  
-If you have any suggestions or feedback, feel free to share them. Your input is greatly appreciated and will help improve this project.
+### Feedback & Connect  
+
+Thanks for checking out this project! Feel free to connect and share your thoughts or ideas—I’d love to hear from you.  
+
+ Email: gauravxv0410@gmail.com
