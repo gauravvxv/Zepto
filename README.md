@@ -14,16 +14,16 @@ The goal of this project is to transform raw inventory data into actionable insi
 
 ## Key KPIs
 
-- Total Revenue: ₹122M
-- Total Products: 1670
-- Average Discount: 7.62%
+- Total Revenue: `₹122M`
+- Total Products: `1670`
+- Average Discount: `7.62%`
 
 ## Data Exploration
-- Total Rows: 3731
-- Different Category: 14
+- Total Rows: `3731`
+- Different Category: `14`
 - Product Stock Status:
-   - In Stock: 3278
-   - Out of Stock: 453
+   - In Stock: `3278`
+   - Out of Stock: `453`
  
 ## Key Insights 
  * Top Best-Value Products (Highest Discount %)
@@ -43,5 +43,23 @@ The goal of this project is to transform raw inventory data into actionable insi
  * Products with High Price but Low Discount
      - `Dhara Kachi Ghani Mustard Oil Jar` (Price: ₹1250, Discount: 8%)
      -  `Saffola Gold (Jar)` (Price: ₹1240, Discount: 0%).
- 
+
+ * category that offers the highest average discount percent
+   - `Fruits and Vegetables` (discount: 15%)
+   - `Meats`,`Fish & Eggs` (discount: 11%)
+
+---
+
+## Tools Used:
+* **PostgreSQL** – for storing and managing inventory data  
+* **Power BI** – for creating interactive dashboards and visualizations  
+* **DAX (Data Analysis Expressions)** – for writing custom measures and calculations in Power BI
+
+---
+
+## Dashboard Preview
+<img width="948" height="531" alt="Screenshot 2025-09-19 220615" src="https://github.com/user-attachments/assets/16ff6eec-3843-4ba6-adfa-3a0b5f9a58c3" />
+
+
+  
 
