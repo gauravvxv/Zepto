@@ -12,20 +12,21 @@ The goal of this project is to transform raw inventory data into actionable insi
 
 ---
 
-## Key KPIs
+## Key KPIs:
 
 - Total Revenue: `₹122M`
 - Total Products: `1670`
 - Average Discount: `7.62%`
 
-## Data Exploration
+## Data Exploration:
+
 - Total Rows: `3731`
 - Different Category: `14`
 - Product Stock Status:
    - In Stock: `3278`
    - Out of Stock: `453`
  
-## Key Insights 
+## Key Insights:
  * Top Best-Value Products (Highest Discount %)
      - `Borges Extra Light Olive Oil Bottle ` and `Dukes Waffy Orange Wafers` are the top best-value product with 50% and 47% discount.
 
@@ -56,7 +57,7 @@ The goal of this project is to transform raw inventory data into actionable insi
 * **DAX (Data Analysis Expressions)** – for writing custom measures and calculations in Power BI
 ---
 
-## Database Schema 
+## Database Schema:
 
 ```
 create table zepto(
@@ -80,4 +81,4 @@ quantity INTEGER
 
 
   
-
+If you have any suggestions or feedback, feel free to share them. Your input is greatly appreciated and will help improve this project.
